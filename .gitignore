@@ -1,0 +1,24 @@
+# секреты — ключ API никогда не коммитим
+.env
+*.key
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# локальные прогоны и сгенерированные задачи (пересоздаются scripts/gen_tasks.py)
+runs/
+data/gen*/
+*.log
+logs/
+
+# пересоздаются scripts/make_hard.py и scripts/gen_varied.py
+data/hard/
+data/varied*/
+
+# внутренние рабочие заметки и настройки редактора
+PLAN.md
+ARCHITECTURE.md
+.vscode/
+.idea/

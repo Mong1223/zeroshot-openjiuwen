@@ -1,0 +1,13 @@
+# в образ попадают только run_agent.py, harness/, requirements.txt, constraints.txt (см. Dockerfile)
+.env
+*.key
+.git
+__pycache__/
+*.pyc
+.pytest_cache/
+runs/
+logs/
+data/
+tests/
+scripts/
+*.md
